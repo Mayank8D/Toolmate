@@ -162,7 +162,7 @@ Pull requests and feature suggestions are welcome! Please open an issue to discu
 ## 🙏 Acknowledgements
 
 - Powered by [Google Gemini](https://ai.google/discover/gemini/) and [Streamlit](https://streamlit.io/)
-- Inspired by the need for accessible, AI-driven workflow automation for professionals and teams.
+- Inspired by Codemate.ai.
 
 ---
 
