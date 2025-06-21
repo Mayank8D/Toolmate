@@ -1,4 +1,7 @@
 <p align="center">
+  <strong>🚩 This project is an assignment for <a href="https://codemate.ai/" target="_blank">CodeMate.ai</a></strong>
+  <br/>
+  <span style="font-size:1.1em;">Learn more at <a href="https://codemate.ai/">codemate.ai</a></span>
   <img src="https://img.icons8.com/fluency/96/robot-2.png" width="90" alt="Toolmate Icon"/>
   <h1 align="center">🤖 Toolmate</h1>
   <p align="center">
