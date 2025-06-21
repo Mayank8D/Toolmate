@@ -166,4 +166,57 @@ Pull requests and feature suggestions are welcome! Please open an issue to discu
 
 ---
 
-> _"Let AI handle the busywork, so you can focus on what matters."_ 
+> _"Let AI handle the busywork, so you can focus on what matters."_
+
+## 🤖 Why I Used Gemini Instead of a Local Open-Source Model
+
+While the original assignment encouraged using open-source models like **Mistral**, **LLaMA**, or any 3B–7B scale LLMs, I chose to integrate **Gemini 1.5 Flash** via API for the following practical reasons:
+
+### 💻 1. Hardware Constraints
+Running large language models locally (e.g., LLaMA-7B or Mixtral-8x7B) requires:
+- 16–24 GB of RAM minimum
+- Ideally a CUDA-capable GPU
+- ~10–20 GB of storage per model
+
+My local development environment does not meet these hardware requirements for stable inference.
+
+---
+
+### 🕒 2. Time-Limited Execution (6-Hour Deadline)
+The setup process for a local open-source model involves:
+- Downloading massive model weights
+- Handling GGUF/GGML conversion or quantization
+- Fine-tuning prompt templates
+
+Given the 6-hour constraint for the assignment, using a hosted LLM (Gemini) allowed me to focus on solving the **core task-planning logic**, **pipeline design**, and **tool chaining**.
+
+---
+
+### 📏 3. Higher Token Context Window
+Gemini 1.5 Flash supports **up to 1 million tokens** of context, which is **significantly higher** than most open-source models. This allowed me to:
+- Feed in a detailed tool library (~100 tools)
+- Use rich system instructions
+- Retain full task context across planning and chat refinement
+
+---
+
+### 🧠 4. Consistent JSON Planning Output
+Gemini's reasoning ability and structured output were reliable for:
+- Generating valid step-by-step function call plans
+- Respecting tool schemas
+- Minimizing hallucination or invalid function references
+
+This was crucial for accurate plan execution.
+
+---
+
+### 🧪 5. Future-Proof: Open LLM Support Included
+Although not used during this submission, I’ve scaffolded a local LLM integration module (`mate_open_llm/`) that supports:
+- Plug-and-play with `llama-cpp-python` or `text-generation-webui`
+- Mistral, LLaMA, and GGUF-compatible models
+- TF-IDF or embedding-based tool matching
+
+---
+
+By using Gemini responsibly and with clear justification, I balanced performance, accuracy, and deliverability under real-world constraints.
+
