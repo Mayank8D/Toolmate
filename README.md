@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/AI-Workflow%20Planner-blueviolet?style=for-the-badge&logo=python" alt="AI Workflow Planner"/>
   <br/>
   <img src="https://img.icons8.com/fluency/96/robot-2.png" width="80" alt="Toolmate Icon"/>
-  <h1 align="center">🤖 Toolmate: Student AI Function Planner</h1>
+  <h1 align="center">🤖 Toolmate</h1>
   <p align="center">
     <b>Plan, automate, and execute data workflows using AI-powered function orchestration.</b><br/>
     <i>Streamline your data tasks with a natural language interface and a rich set of tools.</i>
@@ -14,14 +14,14 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square&logo=python" alt="Python"></a>
   <a href="#"><img src="https://img.shields.io/badge/Streamlit-UI-orange.svg?style=flat-square&logo=streamlit" alt="Streamlit"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff" alt="Gemini"></a>
+  <a href="https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff"><img src="https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff" alt="Google Gemini"></a>
 </p>
 
 ---
 
 ## ✨ Overview
 
-**Toolmate** is an AI-powered workflow planner that helps users break down complex data and automation tasks into actionable steps using a curated set of function tools. With a user-friendly Streamlit interface and robust CLI, Toolmate leverages LLMs (like Gemini) to translate your requests into executable plans.
+**Toolmate** is an AI-powered workflow planner that helps you break down complex data and automation tasks into actionable steps using a curated set of function tools. With a user-friendly Streamlit interface and robust CLI, Toolmate leverages LLMs (like Gemini) to translate your requests into executable plans.
 
 - 🧠 **AI Planning:** Converts natural language queries into step-by-step function calls.
 - 🛠️ **Extensible Toolset:** 30+ built-in tools for data extraction, transformation, summarization, communication, and more.
@@ -31,13 +31,13 @@
 
 ---
 
-## 🚀 Features
+## 🚀 How It Works
 
-- **Natural Language to Workflow:** Just describe your task; Toolmate plans the function sequence.
-- **Rich Tool Library:** Includes PDF/text extraction, CSV parsing, summarization, email/SMS, translation, and more.
-- **Interactive Plan Editing:** Review, update, and version your workflow plans in the UI.
-- **Debug & Transparency:** View raw LLM prompts and responses for full transparency.
-- **Easy Extensibility:** Add new tools by editing a single JSON file.
+1. **Describe your workflow** in plain English (e.g., "Summarize this CSV and email it to my manager").
+2. **Toolmate analyzes your request** and selects the most relevant tools from its library.
+3. **An AI model (Gemini)** generates a step-by-step plan using these tools.
+4. **Review and edit** the plan interactively in the UI, or run it via CLI.
+5. **Easily extend** Toolmate by adding new tools to a single JSON file—no code changes required!
 
 ---
 
@@ -119,16 +119,29 @@ Pull requests and feature suggestions are welcome! Please open an issue to discu
 
 ---
 
-## 📄 License
-
-[MIT License](LICENSE)
-
----
-
 ## 🙏 Acknowledgements
 
 - Powered by [Google Gemini](https://ai.google/discover/gemini/) and [Streamlit](https://streamlit.io/)
-- Inspired by the need for accessible, AI-driven workflow automation for students and professionals.
+- Inspired by the need for accessible, AI-driven workflow automation for professionals and teams.
+
+---
+
+## 🛠️ Coming Soon
+
+Toolmate is evolving rapidly! Here's a sneak peek at what's coming next:
+
+- **Model Configuration:**
+  - Easily switch between different LLM providers (Gemini, OpenAI, and more) and customize model parameters directly from the UI.
+- **Sentence Transformers Integration:**
+  - Advanced semantic search and smarter tool selection using state-of-the-art sentence embeddings.
+- **Workflow Execution Engine:**
+  - Run generated plans end-to-end, with real-time status, error handling, and output visualization.
+- **User Profiles & History:**
+  - Save, revisit, and share your workflow plans across devices.
+- **Plugin System:**
+  - Add your own custom tools and integrations with a simple plugin interface.
+
+Stay tuned for these and more features designed to make Toolmate the ultimate AI workflow companion!
 
 ---
 
