@@ -12,10 +12,9 @@
 ---
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square&logo=python" alt="Python"></a>
   <a href="#"><img src="https://img.shields.io/badge/Streamlit-UI-orange.svg?style=flat-square&logo=streamlit" alt="Streamlit"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Powered%20by-Gemini-2.0-blueviolet?style=flat-square" alt="Gemini"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff" alt="Gemini"></a>
 </p>
 
 ---
