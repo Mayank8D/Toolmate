@@ -1,3 +1,4 @@
+# NOTE: For open-source model usage (e.g., Mistral, LLaMA), see the 'mate_open_llm' folder for a local LLM integration example
 import os
 import requests
 from pathlib import Path
