@@ -72,7 +72,6 @@ mate/
   ui/          # Streamlit UI components
   main.py      # CLI entry point
   requirements.txt
-  open.env     # API keys and environment variables
 ```
 
 - **Prompt Builder:** Translates your query and available tools into a prompt for the LLM.
@@ -86,14 +85,12 @@ mate/
 
 ```bash
 # 1. Clone the repository
-$ git clone https://github.com/yourusername/toolmate.git
+$ git clone https://github.com/mayankdagarXD/toolmate.git
 $ cd toolmate
 
 # 2. Install dependencies
 $ pip install -r requirements.txt
 
-# 3. Set up environment variables
-#    Copy open.env.example to open.env and add your API keys (e.g., GEMINI_API_KEY)
 ```
 
 ---
