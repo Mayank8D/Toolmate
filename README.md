@@ -169,7 +169,7 @@ Pull requests and feature suggestions are welcome! Please open an issue to discu
 > _"Let AI handle the busywork, so you can focus on what matters."_
 ### Note on Model Choice
 
-For this project, a hosted language model (Gemini 1.5 Flash) was used instead of running a local open-source LLM like Mistral or LLaMA. This decision was based on a few practical constraints:
+For this project, a hosted language model (Gemini 2.0 Flash) was used instead of running a local open-source LLM like Mistral or LLaMA. This decision was based on a few practical constraints:
 
 - Local deployment of a 7B model requires high RAM and/or GPU, which was not available in the development environment.
 - Downloading and setting up a local model (weights, quantization, inference backend) would have consumed significant time, which was limited due to the 6-hour assignment window.
