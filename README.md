@@ -56,7 +56,7 @@
 ## 🎬 Demo
 
 <div align="center">
-  <img src="https://github.com/mayankdagarXD/Toolmate/blob/main/assets/toolmate.gif?raw=true" alt="Toolmate Demo" width="700"/>
+  <img src="https://github.com/mayankdagarXD/Toolmate/blob/main/assets%2Ftoolmate.gif" alt="Toolmate Demo" width="700"/>
   <br/>
   <i>Describe your workflow, get an AI-generated plan, and review/edit steps interactively.</i>
 </div>
