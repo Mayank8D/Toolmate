@@ -1,5 +1,4 @@
 <p align="center">
-  <strong>🚩 This project is an assignment for <a href="https://codemate.ai/" target="_blank">CodeMate.ai</a></strong>
   <br/>
   <img src="https://img.icons8.com/fluency/96/robot-2.png" width="90" alt="Toolmate Icon"/>
   <h1 align="center">🤖 Toolmate</h1>
@@ -56,7 +55,7 @@
 ## 🎬 Demo
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mayankdagarXD/2Toolmate/refs/heads/main/assets/toolmate.gif" alt="Toolmate Demo" width="700"/>
+  <img src="https://raw.githubusercontent.com/mayankdagar8D/Toolmate/refs/heads/main/assets/toolmate.gif" alt="Toolmate Demo" width="700"/>
   <br/>
   <i>Describe your workflow, get an AI-generated plan, and review/edit steps interactively.</i>
 </div>
